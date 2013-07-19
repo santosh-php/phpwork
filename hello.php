@@ -48,9 +48,9 @@ padding:4px;
 <div id="nav">
 <ul>
 <li>
-<a href="#">HOME</a></li>
+<a href="hello.php">HOME</a></li>
 <li><a href="#">PHP</a></li>
-<li><a href="#">CARRIER</a></li>
+<li><a href="gallry.html">HTML</a></li>
 <li><a href="#">ABOUT US</a></li>
 <li><a href="#">CONTACT Us</a></li>
 <li><a href="#">Current affairs</a></li>
@@ -63,7 +63,7 @@ padding:4px;
 </ul>
 </div>
 
-<div id="content"style="border:2px solid red;width:70%;height:78%;position:absolute;top:14%;left:14%;">
+<div id="content"style="border:0px solid red;width:70%;height:78%;position:absolute;top:14%;left:14%;">
 <h4>Content Region</h4>
 </div>
 
