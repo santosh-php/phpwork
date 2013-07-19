@@ -15,12 +15,27 @@ float:left;
 }
 #nav ul{
 
-display:block;
+list-style-type:none;
+margin:0;
+padding:0;
 }
 #nav ul li{
 
+}
+#nav ul li a{
+display:block;
 text-decoration:none;
 color:white;
+background-color:green;
+width:128px;
+text-align:center;
+padding:4px;
+}
+
+#nav ul li a:hover,a:active{
+
+	background-color:#E165B9;
+	border:1px dotted black;
 }
 </style>
 </head>
@@ -33,11 +48,18 @@ color:white;
 <div id="nav">
 <ul>
 <li>
-<a href="#">Home</a><br/></li>
-<li><a href="#">Php</a><br/></li>
-<li><a href="#">Carrier</a><br/></li>
-<li><a href="#">About Us</a><br/></li>
-<li><a href="#">Contact Us</a><br/></li>
+<a href="#">HOME</a></li>
+<li><a href="#">PHP</a></li>
+<li><a href="#">CARRIER</a></li>
+<li><a href="#">ABOUT US</a></li>
+<li><a href="#">CONTACT Us</a></li>
+<li><a href="#">Current affairs</a></li>
+<li><a href="#">Govt.Jobs</a></li>
+<li><a href="#">Aptitude</a></li>
+<li><a href="#">Reasoning</a></li>
+<li><a href="#">c </a></li>
+<li><a href="#">C++</a></li>
+<li><a href="#">interview questions</a></li>
 </ul>
 </div>
 
