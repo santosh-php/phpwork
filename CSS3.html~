@@ -41,6 +41,56 @@ fieldset{
 background:#EBE7E7;border:1px solid 
 
 }
+#multiple{
+border:2px solid black;width:500px;height:250px;
+background-image:url(image/tree.jpeg),url(image/bird.jpeg);
+}
+#text{
+height:12%;
+width:78%;
+border:1px solid black;
+text-shadow: 9px 10px 1px  #FF0000;
+}
+#rotate{
+border:1px solid red;
+background:teal;
+width:120px;
+height:120px;
+}
+#rotate1{
+transform:rotate(42deg);
+border:1px solid red;
+background:teal;
+width:120px;
+height:120px;
+}
+#scale{
+border:1px solid red;
+background:teal;
+width:100px;
+height:180px;
+}
+#scale1{
+transform:scale(2,1);
+border:1px solid red;
+background:teal;
+width:120px;
+height:100px;
+}
+#skew{
+border:1px solid red;
+background:teal;
+width:120px;
+height:120px;
+}
+#skew1{
+transform:skew(25deg,40deg);
+border:1px solid red;
+background:teal;
+width:120px;
+height:120px;
+}
+
 </style>
 </head>
 <body>
@@ -70,7 +120,7 @@ background:#EBE7E7;border:1px solid
 
 <!----Content Div -->
 
-<div id="content"style="border:0px solid red;width:70%;position:absolute;top:14%;left:14%;overflow:scroll;">
+<div id="content"style="border:0px solid red;width:70%;height:78%;position:absolute;top:14%;left:14%;overflow:scroll;">
 <center><h4 style="color:#E165B9;"><u> Let's Learn CSS3: </u></h4></center>
 
 CSS3 Borders :<br/>
@@ -87,7 +137,7 @@ Border-radius;
 <div style="border:1px solid black; border-radius:24px; background-color:#3ED8F3">
 <p>This is Border Radius </p>
 </div>
-
+<br/>
 <fieldset>
 <legend> For Border-Radius :</legend>
  <p>border-radius:24px</p>
@@ -95,9 +145,95 @@ Border-radius;
 <br/>
 <div style="box-shadow: 10px 10px 5px #888888;background-color:#3ED8F3;height:100px;width:100px;">
 <p>This is Box shadow </p>
+</div><br/>
+<fieldset>
+<legend> For Box Shadow: </legend>
+<p>
+
+box-shadow: 10px 10px 5px #888888;
+
+</p>
+</fieldset>
+<br/>
+<p>Multiple background - imgae</p>
+<div id="multiple">
+This is multiple background-Not Supported
 </div>
 <br/>
+<p><u><b>Text-Shadow:</b></u></p>
+<div id="text">
+ <center><h2>Santosh Soni</h2></center>
 </div>
+<br/>
+<fieldset>
+<legend> For Text-Shadow: </legend>
+<p>
+text-shadow: 9px 10px 1px  #FF0000;
+</p>
+</fieldset>
+<br/>
+<b><u>2D Transform :</u></b><br/>
+<center><div style="border:1px solid teal;width:100px;height:100px;background:#F781D8;">
+working
+</div>
+
+<div style="transform:translate(40px,80px);">
+
+</div>
+</center>
+
+<br/>
+<b><u>Rotation</u></b><center>
+<div id="rotate">
+Rotate
+</div>
+<div id="rotate1">
+rotate
+</div>
+</center>
+<br/>
+<fieldset>
+<legend> For Rotation at a degree: </legend>
+<p>
+transform:rotate(42deg);
+</p>
+</fieldset>
+
+<b><u>Scaling:</u></b><center>
+<div id="scale">
+This is Radio Mirchi...HAHAHAHAH
+</div>
+<div id="scale1">
+This is Radio Mirchi...HAHAHAHAH
+</div>
+</center>
+<br/>
+<fieldset>
+<legend> ForScaling at a degree: </legend>
+<p>
+transform:scale(2,4);
+</p>
+</fieldset>
+<br/>
+<b><u>skew:</u></b><center>
+<div id="skew"> Santosh </div>
+<div id="skew1"> Santosh</div>
+</center>
+<br/>
+<fieldset>
+<legend> For Skew at a degree: </legend>
+<p>
+transform:skew(20deg,30deg);
+</p>
+</fieldset>
+
+<br/>
+<center>
+<a href="3DCSS.html">Learn Css in 3D</a></center>
+<br/>
+<br/>
+</div>
+
 
 <!--Sidebar -->
 <div id="sidebar" style="border:1px solid teal;height:80%;width:135px; background:blue;position:absolute;top:14%;left:85%;color:white;">
@@ -107,6 +243,7 @@ Border-radius;
 <h4>Latest New here</h4>
 <h4>Latest New here</h4>
 </div>
+<br/>
 <!--Footer -->
 <div id ="footer" style="border:1px solid teal;height:70px;width:98%;background:orange;position:absolute;top:89%;">
 <center><i><h3>This is Footer</h3></i></center>
