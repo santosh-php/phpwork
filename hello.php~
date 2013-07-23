@@ -63,7 +63,7 @@ padding:4px;
 </ul>
 </div>
 
-<div id="content"style="border:0px solid red;width:70%;position:absolute;top:14%;left:14%;overflow:scroll;">
+<div id="content"style="border:0px solid red;width:70%;height:78%;position:absolute;top:14%;left:14%;overflow:scroll;">
 <h4>Content Region</h4>
 </div>
 

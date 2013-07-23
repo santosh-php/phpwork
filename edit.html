@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Editor</title>
+<script type="javascript">
+function update()
+{
+var x=document.getElementById('mycode').value;
+frame['display'].document.documentElement.innerHTML= x;
+}
+</script>
+</head>
+<body>
+<input onclick="update();" value="update page" type="button">
+<textaera id="mycode"></textarea>
+<iframe id="display"></iframe>
+</body>
+</html>
+

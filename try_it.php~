@@ -1,0 +1,13 @@
+
+<?php
+
+if(isset($_POST['bt_submit']))
+ {
+ $file = "try_it.php";
+ $fp = fopen($file, 'w');
+ //Following code will store the content in textarea in a variable which will create a file.
+ $content = $_POST['txt_data'];
+ fwrite($fp, $content);
+  fclose($fp);
+  }
+ ?>

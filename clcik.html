@@ -1,0 +1,113 @@
+<html>
+<title>
+Animation on Click
+</title>
+<head>
+<style type="text/css">
+
+div{
+width:30%;
+margin:0 auto;
+}
+ul{
+width:100%;
+padding-bottom:2.5%;
+background:#ccc;
+float:left;
+list-style-type:none;
+}
+ul li{
+width:40%;
+margin:2.5% 0 0 2.5%;
+float:left;
+position:relative;
+}
+ul li img{
+max-width:100%;
+border-width:2px solid #eee;
+box-sizing:border-box;
+}
+ul li a{
+float:right;
+text-decoration:none;
+font-size:8px;
+display:inline;
+}
+.close {
+font: 0.3em/1em Arial,Helvetica,sans-serif;
+text-transform: uppercase;
+letter-spacing: 0.3em;
+text-decoration: none;
+background: none repeat scroll 0% 0% rgb(193, 82, 82);
+padding: 2px;
+border-radius: 2px 2px 2px 2px;
+color: rgb(255, 255, 255);
+position: absolute;
+top: -2px;
+right: 0px;
+box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.gal-2 li{
+
+transition:all 0.6s ease;
+opacity:0.5;
+}
+.gal-2 li:target {
+	
+	-webkit-transform:scale(2.2) rotateY(360deg);
+	z-index:2;
+	opacity:1;
+}
+.gal-2 li:target img{
+	box-shadow:5px 3px 5px rgba(0,0,0,0.7);
+}
+
+.gal-2 .close{
+	display:none;
+}
+.gal-2 li:target .close{
+	display:inline;
+}
+
+</style>
+</head>
+<body>
+<div>
+<h2 id="gallry">Enlarge on click</h2>
+<ul class ="gal-2">
+<li id="one">
+<a class="close" href="#gallry"> Close</a>
+<a href="#one"><img src="b2.jpeg" alt="" height="100" width="100" /></a>
+
+</li>
+<li id="two">
+<a class="close" href="#gallry"> Close</a>
+<a href="#two"><img src="b3.jpg" alt="" height="100" width="100" /></a>
+
+</li>
+<li id="three">
+<a class="close" href="#gallry"> Close</a>
+<a href="#three"><img src="b4.jpeg" alt="" height="100" width="100" /></a>
+
+</li>
+<li id="four">
+<a class="close" href="#gallry"> Close</a>
+<a href="#four"><img src="b5.jpg" alt="" height="100" width="100" /></a>
+
+</li>
+<li id="five">
+<a class="close" href="#gallry"> Close</a>
+<a href="#five"><img src="b6.jpg" alt="" height="100" width="100" /></a>
+
+</li>
+<li id="six">
+<a class="close" href="#gallry"> Close</a>
+
+<a href="#six"><img src="bird.jpeg" alt="" height="100" width="100" /></a>
+
+</li>
+
+</ul>
+</div>
+</body>
+</html>

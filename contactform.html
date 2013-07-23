@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Contact Form</title>
+<style type="text/css">
+label{
+display:block;
+margin-top:20px;
+letter-spacing:2px;
+}
+.body{
+display:block;
+margin:0 auto;
+width:576px;
+}
+.body h1{
+background:black;
+color:white;
+}
+form{
+margin:0 auto;
+width:459px;
+}
+input,textarea{
+
+width:439px;
+height:27px;
+background:#efefef;
+border:1px solid #dedede;
+padding:10px;
+margin-top:3px;
+font-size:0.9em;
+color:#3a3a3a;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+text-transform:uppercase;
+}
+textarea{
+height:213px;
+background:url(textarea-bg.jpg) right no-repeat #efefef;
+}
+input:focus,textarea:focus{
+border:1px solid #97d6eb;
+}
+#submit{
+width:127px;
+height:38px;
+background:url(submit.jpg);
+text-indent:-20px;
+color:white;
+background:black;
+margin-top:20px;
+cursor:pointer;
+}
+#submit:hover{
+opacity:0.5;
+color:green;
+background:pink;
+}
+</style>
+</head>
+<body>
+<header class="body">
+<h1> GET IN TOUCH</h1>
+</header>
+<section class="body">
+<form>
+<label>Name:</label>
+<input name="name" placeholder="Type Here"/>
+<label>Email:</label>
+<input name="email"type="email" placeholder="Your E-mail" />
+<label>Message:</label>
+<textarea name="message" placeholder="Enter your Message"></textarea>
+<input id="submit" name="submit" type="submit" value="submit" />
+</form>
+</scetion>
+<footer class="body">
+</footer>
+</body>
+</html>

@@ -64,7 +64,7 @@ padding:4px;
 </div>
 
 <div id="content"style="border:0px solid red;width:70%;height:78%;position:absolute;top:14%;left:14%;overflow:scroll;">
-<h4>Content Region</h4>
+<h4></h4>
 </div>
 
 <div id="sidebar" style="border:1px solid teal;height:80%;width:135px; background:blue;position:absolute;top:14%;left:85%;color:white;">
